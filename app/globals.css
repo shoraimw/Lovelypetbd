@@ -349,12 +349,12 @@ img { display: block; max-width: 100%; }
   .brand-symbol svg { width: 21px; }
   .brand-name { font-size: 21px; }
   .brand-tagline { font-size: 6.5px; }
-  .search-form { width: 42px; height: 40px; flex: 0 1 42px; justify-content: center; padding: 0; border-radius: 11px; }
-  .search-form > svg { flex: 0 0 auto; }
-  .search-form input, .search-submit, .search-clear { display: none; }
-  .search-form:focus-within { position: absolute; top: 76px; right: 16px; left: 16px; z-index: 5; width: auto; height: 45px; justify-content: flex-start; padding: 4px 5px 4px 13px; background: white; }
-  .search-form:focus-within input { display: block; }
-  .search-form:focus-within .search-submit { display: block; }
+  .search-form { width: auto; height: 40px; flex: 1 1 auto; justify-content: flex-start; gap: 7px; padding: 0 10px; border-radius: 11px; }
+  .search-form > svg { width: 15px; flex: 0 0 auto; }
+  .search-form input { display: block; min-width: 0; font-size: 9px; }
+  .search-form input::placeholder { color: #9aa39c; }
+  .search-form .search-submit { display: none; }
+  .search-form .search-clear { display: grid; }
   .mobile-menu-toggle { width: 40px; height: 40px; }
   .hero-shell { display: flex; flex-direction: column; align-items: stretch; gap: 6px; padding-top: 36px; padding-bottom: 13px; }
   .hero-copy { padding: 0; }
