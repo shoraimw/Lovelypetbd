@@ -15,7 +15,6 @@ import {
   Search,
   ShieldCheck,
   Sparkles,
-  Truck,
   X
 } from "lucide-react";
 import {
@@ -246,7 +245,7 @@ export function Storefront() {
               <span><strong>Friendly support</strong><small>We’re happy to help</small></span>
             </div>
             <div className="benefit-item">
-              <span className="benefit-icon butter"><Truck size={21} /></span>
+              <span className="benefit-icon butter"><Phone size={21} /></span>
               <span><strong>Easy to get in touch</strong><small>Call or message our team</small></span>
             </div>
           </div>
